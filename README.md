@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/wtanaka/ansible-role-tig.svg?style=svg)](https://circleci.com/gh/wtanaka/ansible-role-tig)
 
 wtanaka.tig
-================
+===========
 
 Installs tig
 
@@ -17,6 +17,18 @@ Example Playbook
     - hosts: servers
       roles:
          - role: wtanaka.tig
+
+### `tig_should_shortcircuit`
+
+Default: True
+
+When True, this role short-circuits itself if a "tig" is already in
+he path
+
+### All variables
+
+The full set of configuration options available are visible in
+[defaults/main.yml](defaults/main.yml)
 
 License
 -------
