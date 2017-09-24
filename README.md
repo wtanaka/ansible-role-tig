@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/wtanaka/ansible-role-tig.svg?style=svg)](https://circleci.com/gh/wtanaka/ansible-role-tig)
 
 wtanaka.tig
-================
+===========
 
 Installs tig
 
